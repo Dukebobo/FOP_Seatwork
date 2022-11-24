@@ -36,7 +36,7 @@ namespace FileIO
             //print a message that the file has been created
             Console.WriteLine(@"1 . [File created] File has been careated and the Path is :  E:\\csharpPractice\\demo\\products.txt");
 
-            Console.ReadLine();
+            
 
         }
 
@@ -62,7 +62,7 @@ namespace FileIO
             //print a message that the file has been saved
             Console.WriteLine("\n2 . [File writed] Successfully saved file with products data !!");
 
-            Console.ReadLine();
+            
 
         }
         
@@ -88,7 +88,7 @@ namespace FileIO
             Console.WriteLine("\n3 . [File read] The content in the txt file is: \n" + readdata);
             Console.WriteLine("\n Thanks !");
 
-            Console.ReadLine();
+            
 
         }
 
