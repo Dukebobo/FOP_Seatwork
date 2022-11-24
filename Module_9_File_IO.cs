@@ -11,7 +11,7 @@ namespace FileIO
 {
     class program
      {
-
+        //main method
         static void Main(string[] args)
         {
             //declaring variables filename
@@ -22,7 +22,8 @@ namespace FileIO
             ReadFile(filename);
             Console.ReadLine();
         }
-
+        
+        //create  file method
         static void Create(string filename)
         {
     
@@ -64,6 +65,8 @@ namespace FileIO
             Console.ReadLine();
 
         }
+        
+        //read file method
         static void ReadFile(string filename)
         {
             //declaring variables readata
